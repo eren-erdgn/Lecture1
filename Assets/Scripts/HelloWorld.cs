@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
-    [SerializeField] private Vector3 _first;
-    [SerializeField] private Vector3 _second;
+    [SerializeField] private Transform _first;
+    [SerializeField] private Transform _second;
+    Vector3 _firstPoint;
+    Vector3 _secondPoint;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.DrawLine(_first, _second, Color.red, 5f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        _firstPoint = _first.position;
+        _secondPoint = _second.position;
+        Debug.DrawLine(_firstPoint, _secondPoint, Color.red);
     }
 }
