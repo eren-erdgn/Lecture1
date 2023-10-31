@@ -373,7 +373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3946a942b56b4834a926c3d0315cd874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 8
+  _runSpeed: 8
+  _switchSpeed: 0.3
 --- !u!1 &1483786866
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3946a942b56b4834a926c3d0315cd874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _runSpeed: 0
+  _switchSpeed: 0
 --- !u!95 &1609213811
 Animator:
   serializedVersion: 7
@@ -529,7 +531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3946a942b56b4834a926c3d0315cd874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _runSpeed: 0
+  _switchSpeed: 0
 --- !u!1 &1720982848
 GameObject:
   m_ObjectHideFlags: 0
